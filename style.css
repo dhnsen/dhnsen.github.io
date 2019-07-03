@@ -20,6 +20,11 @@
 @media (max-width: 576px) {
   
 }
+@media only screen and (max-width: 400px) {
+.logo-text {
+  font-size:x-large;
+}
+}
 
 
 /*---Firefox Bug Fix --*/
@@ -65,9 +70,8 @@ figure {
 }
 
 /*--- Page Styles --*/
-.jumbotron-oneViewHeight {
-  height: 100vh;
-  width: 100vw;
+.logo-text {
+  font-size:xx-large;
 }
 
 
