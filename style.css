@@ -93,7 +93,10 @@ figure {
 #footer {
   color:lightgray;
 }
-
+.logo-text {
+  font-size: 18pt;
+  margin-bottom: 10pt
+}
 
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
