@@ -5,6 +5,16 @@
   .intro-text {
     font-size: 60px;
   }
+  .project-container {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    grid-gap: 10px;
+    justify-content: center;
+  }
+  .project-title {
+    grid-column: 1 / span 2;
+    text-align: center;
+  }
 
 }
 
@@ -12,11 +22,25 @@
   .intro-text {
     font-size: 60px;
   }
-
+  .project-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px 0px 5px 0px;
+  }
+  .project-title {
+    text-align: center;
+    margin: 10px 0px 0px 0px;
+  }
+  .project-image {
+    margin: 10px 0px 0px 0px;
+  }
+  .project-info {
+    margin: 10px 0px 0px 0px;
+  }
 }
 
 @media (max-width: 768px) {
-
   .intro-text {
     font-size: 60px;
   }
@@ -26,89 +50,36 @@
   .intro-text {
     font-size: 60px;
   }
-
 }
 
 @media (max-width: 400px) {
   .intro-text {
     font-size: 46px;
   }
-
 }
-
-/*---Firefox Bug Fix --*/
-
-.carousel-item {
-  transition: -webkit-transform 0.5s ease;
-  transition: transform 0.5s ease;
-  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
-  -webkit-backface-visibility: visible;
-  backface-visibility: visible;
-}
-
-/*--- Fixed Background Image --*/
-
-figure {
-  position: relative;
-  width: 100%;
-  height: 60%;
-  margin: 0!important;
-}
-
-.fixed-wrap {
-  clip: rect(0, auto, auto, 0);
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-#fixed {
-  background-image: url('img/mac.png');
-  position: fixed;
-  display: block;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-position: center center;
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
-  will-change: transform;
-}
-
-/*--- Bootstrap Padding Fix --*/
-
-[class*="col-"] {
-  padding: 1rem;
-}
-
 /*--- Page Styles --*/
+body {
+  background-image: url("img/pankaj-patel-1IW4HQuauSU-unsplash.jpg");
+  background-attachment: fixed;
+  background-size: auto 100vh;
+}
+.intro-container {
+  height: 110vh;
+  margin-top: -10vh;
+}
 .logo-text-container {
   font-size: 24px;
-  
 }
-#footer {
-  color:lightgray;
-}
+
 .logo-text {
   font-size: 18pt;
   margin-bottom: 10pt
 }
 
 #project-section {
-  background: none;
-}
-.project-container {
-  display: grid;
-  grid-template-columns: 40% 40%;
-  grid-gap: 10px;
-  justify-content: center;
+  margin-top: 15px;
 }
 .project-title {
-  grid-column: 1 / span 2;
   text-align: center;
 }
 .project-image {
@@ -118,19 +89,28 @@ figure {
   height: 200px;
 }
 
+#footer {
+  color: lightgray;
+}
+
 /*-- testing styles --*/
+
 #test-1 {
   background: #959595;
 }
+
 #test-2 {
   background: #454545;
 }
+
 #test-3 {
   background: #cc8181;
 }
+
 #test-4 {
   background: #9ecc81;
 }
+
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
 No media query since this is the default in Bootstrap
