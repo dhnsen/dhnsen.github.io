@@ -60,11 +60,13 @@
 /*--- Page Styles --*/
 body {
   background-image: url("");
+  background-color: lightgreen;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center; 
   background-size: auto 120vh;
 }
+
 .intro-container {
   height: 110vh;
   margin-top: -10vh;
@@ -81,6 +83,10 @@ body {
 
 #project-section {
   margin-top: 15px;
+  
+}
+.project-container {
+  background-color: white;
 }
 .project-title {
   text-align: center;
@@ -93,8 +99,15 @@ body {
 .project-image{
   display: inline-block;
 }
-.project-info {
+.project-info-container {
   height: inherit;
+  padding: 10px 10px 10px 10px;
+}
+.project-tech{
+  text-align: center;
+}
+.project-links{
+  text-align: center;
 }
 
 #footer {
