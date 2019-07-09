@@ -10,6 +10,7 @@
     grid-template-columns: 40% 40%;
     grid-gap: 10px;
     justify-content: center;
+
   }
   .project-title {
     grid-column: 1 / span 2;
@@ -27,14 +28,13 @@
     flex-direction: column;
     justify-content: center;
     padding: 5px 0px 5px 0px;
+
   }
   .project-title {
     text-align: center;
     margin: 10px 0px 0px 0px;
   }
-  .project-image {
-    margin: 10px 0px 0px 0px;
-  }
+  
   .project-info {
     margin: 10px 0px 0px 0px;
   }
@@ -82,11 +82,12 @@ body {
 }
 
 #project-section {
-  margin-top: 15px;
-  
+  margin: 20px 0px 10px 0px;
+  text-align: center;
+  background-color: white;
 }
 .project-container {
-  background-color: white;
+  margin: 0px 0px 20px 0px;
 }
 .project-title {
   text-align: center;
@@ -98,6 +99,9 @@ body {
 }
 .project-image{
   display: inline-block;
+  max-width: 550px;
+  width: 100%;
+  border:1px solid #021a40;
 }
 .project-info-container {
   height: inherit;
@@ -109,6 +113,24 @@ body {
 .project-links{
   text-align: center;
 }
+.project-dividers {
+  width: 60%; 
+  text-align: center; 
+  margin: 0 auto 8 auto;
+  border-width: 1px;
+  border-style: solid;
+}
+
+#about-section {
+  margin: 20px 0px 10px 0px;
+  text-align: center;
+  align-content: center;
+  background-color: white;
+}
+.about-description {
+  width: 80%;
+  text-align: Left;
+}
 
 #footer {
   color: lightgray;
@@ -116,19 +138,19 @@ body {
 
 /*-- testing styles --*/
 
-#test-1 {
+.test-1 {
   background: #959595;
 }
 
-#test-2 {
+.test-2 {
   background: #454545;
 }
 
-#test-3 {
+.test-3 {
   background: #cc8181;
 }
 
-#test-4 {
+.test-4 {
   background: #9ecc81;
 }
 
