@@ -59,7 +59,7 @@
 }
 /*--- Page Styles --*/
 body {
-  background-image: url("img/pankaj-patel-1IW4HQuauSU-unsplash.jpg");
+  background-image: url("");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center; 
@@ -88,7 +88,7 @@ body {
 .project-image {
   height: auto;
   padding: 10px 10px 10px 10px;
-  text-align: justify;
+  text-justify: center;
 }
 .project-info {
   height: inherit;
