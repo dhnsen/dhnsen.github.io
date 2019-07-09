@@ -60,12 +60,15 @@
 /*--- Page Styles --*/
 body {
   background-image: url("img/pankaj-patel-1IW4HQuauSU-unsplash.jpg");
+  background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: auto 100vh;
+  background-position: center; 
+  background-size: auto 120vh;
 }
 .intro-container {
   height: 110vh;
   margin-top: -10vh;
+  background-color: #959595
 }
 .logo-text-container {
   font-size: 24px;
