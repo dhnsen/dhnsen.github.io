@@ -85,10 +85,13 @@ body {
 .project-title {
   text-align: center;
 }
-.project-image {
+.project-image-container {
   height: auto;
   padding: 10px 10px 10px 10px;
-  text-justify: center;
+  text-align: center;
+}
+.project-image{
+  display: inline-block;
 }
 .project-info {
   height: inherit;
