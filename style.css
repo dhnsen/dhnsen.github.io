@@ -98,6 +98,39 @@ figure {
   margin-bottom: 10pt
 }
 
+#project-section {
+  background: none;
+}
+.project-container {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  grid-gap: 10px;
+  justify-content: center;
+}
+.project-title {
+  grid-column: 1 / span 2;
+  text-align: center;
+}
+.project-image {
+  height: 200px;
+}
+.project-info {
+  height: 200px;
+}
+
+/*-- testing styles --*/
+#test-1 {
+  background: #959595;
+}
+#test-2 {
+  background: #454545;
+}
+#test-3 {
+  background: #cc8181;
+}
+#test-4 {
+  background: #9ecc81;
+}
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
 No media query since this is the default in Bootstrap
