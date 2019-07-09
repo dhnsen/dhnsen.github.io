@@ -86,10 +86,12 @@ body {
   text-align: center;
 }
 .project-image {
-  height: 200px;
+  height: auto;
+  padding: 10px 10px 10px 10px;
+  text-align: justify;
 }
 .project-info {
-  height: 200px;
+  height: inherit;
 }
 
 #footer {
