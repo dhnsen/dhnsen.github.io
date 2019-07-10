@@ -133,13 +133,14 @@ body {
 #about-section {
   margin: 20px 0px 10px 0px;
   text-align: center;
-
   background-color: white;
 }
 
 .about-description {
   width: 80%;
-  text-align: Left;
+  margin: 0 auto;
+  text-align: left;
+  max-width: 850px;
 }
 
 #footer {
