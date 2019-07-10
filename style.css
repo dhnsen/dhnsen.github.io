@@ -10,14 +10,12 @@
     grid-template-columns: 40% 40%;
     grid-gap: 10px;
     justify-content: center;
-
   }
   .project-title {
     grid-column: 1 / span 2;
     text-align: center;
-    display:none;
+    display: none;
   }
-
 }
 
 @media (max-width: 992px) {
@@ -29,14 +27,13 @@
     flex-direction: column;
     justify-content: center;
     padding: 5px 0px 5px 0px;
-
   }
   .project-title {
     text-align: center;
     margin: 10px 0px 0px 0px;
   }
   .title-in-project-description {
-    display:none;
+    display: none;
   }
   .project-info {
     margin: 10px 0px 0px 0px;
@@ -60,13 +57,15 @@
     font-size: 46px;
   }
 }
+
 /*--- Page Styles --*/
+
 body {
   background-image: url("img/3750wide_.jpg");
   background-color: lightgray;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center; 
+  background-position: center;
   background-size: auto 120vh;
 }
 
@@ -75,6 +74,7 @@ body {
   margin-top: -10vh;
   background-color: #959595
 }
+
 .logo-text-container {
   font-size: 24px;
 }
@@ -89,36 +89,44 @@ body {
   text-align: center;
   background-color: white;
 }
+
 .project-container {
   margin: 0px 0px 20px 0px;
 }
+
 .project-title {
   text-align: center;
 }
+
 .project-image-container {
   height: auto;
   padding: 10px 10px 10px 10px;
   text-align: center;
 }
-.project-image{
+
+.project-image {
   display: inline-block;
   max-width: 550px;
   width: 100%;
-  border:1px solid #021a40;
+  border: 1px solid #021a40;
 }
+
 .project-info-container {
   height: inherit;
   padding: 10px 10px 10px 10px;
 }
-.project-tech{
+
+.project-tech {
   text-align: center;
 }
-.project-links{
+
+.project-links {
   text-align: center;
 }
+
 .project-dividers {
-  width: 60%; 
-  text-align: center; 
+  width: 60%;
+  text-align: center;
   margin: 0 auto 8 auto;
   border-width: 1px;
   border-style: solid;
@@ -130,6 +138,7 @@ body {
   align-content: center;
   background-color: white;
 }
+
 .about-description {
   width: 80%;
   text-align: Left;
