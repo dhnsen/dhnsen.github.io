@@ -35,9 +35,6 @@
   .title-in-project-description {
     display: none;
   }
-  .project-info {
-    margin: 10px 0px 0px 0px;
-  }
 }
 
 @media (max-width: 768px) {
@@ -112,8 +109,10 @@ body {
 }
 
 .project-info-container {
-  height: inherit;
+  height: auto;
   padding: 10px 10px 10px 10px;
+  text-align: center;
+  max-width: 550px;
 }
 
 .project-tech {
