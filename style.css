@@ -15,6 +15,7 @@
   .project-title {
     grid-column: 1 / span 2;
     text-align: center;
+    display:none;
   }
 
 }
@@ -34,7 +35,9 @@
     text-align: center;
     margin: 10px 0px 0px 0px;
   }
-  
+  .title-in-project-description {
+    display:none;
+  }
   .project-info {
     margin: 10px 0px 0px 0px;
   }
