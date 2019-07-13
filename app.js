@@ -1,6 +1,6 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-const expressLayouts = require('express-ejs-layouts');
+const ejs = require('express-ejs-layouts');
 const nodemailer = require('nodemailer');
 const path = require('path');
 
@@ -15,6 +15,8 @@ app.use('/img', express.static(path.join(__dirname, '/public/img')));
 app.use(express.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
-app.use('/', require(path.join(__dirname, '/routes/index')));
+app.get('/', (req, res) => {
+    res.render(path.join(__dirname + '/index'));
+});
 
 app.listen(3000);
