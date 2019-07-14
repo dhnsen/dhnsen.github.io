@@ -22,7 +22,7 @@ app.get('/', (req, res) => {
 
 app.post('/send', (req, res) => {
     const output = `
-    <p>You have a new cotnact request.</p>
+    <p>You have a new contact request.</p>
     <h3>contact details:</h3>
     <ul>
     <li>Name: ${req.body.name}</li>
