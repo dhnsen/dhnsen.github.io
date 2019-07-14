@@ -34,6 +34,8 @@
 			</div>
 		</div>
 	</nav>
+	<!-- Messages -->
+	<% include ./partials/messages %>
 
 	<!-- Intro -->
 	<div class="d-flex justify-content-center intro-container">
@@ -46,18 +48,15 @@
 				<div style="display: inline-block; margin-left: 12px; margin-right: 12px">
 				</div>
 				<a role="button" class="btn btn-inverse btn-dark" href="#contact">Contact Me</a>
-				
 			</div>
-			<br><br>
-			<% include ./partials/messages %>
-			
 		</div>
-		
+
 	</div>
 
 	<!--- projects section -->
 	<section id="project-section">
-		<br><br><h1>Projects</h1>
+		<br><br>
+		<h1>Projects</h1>
 		<!--- project -->
 		<div class="project-container">
 			<div class="project-title">
@@ -130,10 +129,13 @@
 				</div>
 			</div>
 		</div>
+		<br>
 	</section>
 
 	<!--- About -->
 	<section id="about-section">
+		<br>
+		<br>
 		<h1>About</h1>
 		<div class="about-description">
 
@@ -160,6 +162,8 @@
 
 	<!-- Contact section -->
 	<section id="contact-section">
+		<br>
+		<br>
 		<h1>Contact Me</h1>
 		<div class="contact-form">
 			<form method="POST" action="/send">
@@ -169,7 +173,8 @@
 				</div>
 				<div class="form-group">
 					<label for="email-address">Email address</label>
-					<input type="email" class="form-control" id="email-address" name="email" placeholder="e.g. Jane@global.com">
+					<input type="email" class="form-control" id="email-address" name="email"
+						placeholder="e.g. Jane@global.com">
 				</div>
 				<div class="form-group">
 					<label for="phone-number">Phone Number</label>
@@ -182,7 +187,7 @@
 				</div>
 				<button type="submit" class="btn btn-primary">Submit</button>
 			</form>
-			
+
 		</div>
 		<br>
 		<br>
