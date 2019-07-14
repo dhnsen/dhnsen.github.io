@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 const ejs = require('express-ejs-layouts');
 const nodemailer = require('nodemailer');
 const path = require('path');
-const secrets = require('secrets');
+const secrets = require(path.join(__dirname, '/secrets'));
 
 const app = express();
 
@@ -17,7 +17,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 app.get('/', (req, res) => {
-    res.render(path.join(__dirname + '/views/index'));
+    res.render(path.join(__dirname + '/views/index'), {msg:''});
 });
 
 app.post('/send', (req, res) => {
