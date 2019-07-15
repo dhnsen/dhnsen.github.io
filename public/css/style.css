@@ -168,6 +168,8 @@ body {
 
 #footer {
   color: lightgray;
+  text-align: center;
+  background-color: #343a40;
 }
 
 /*-- testing styles --*/
