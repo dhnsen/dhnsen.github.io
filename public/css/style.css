@@ -93,6 +93,12 @@ body {
   margin-bottom: 10pt
 }
 
+#intro-arrow{
+  position: absolute;
+  bottom: 3%;
+  left: 49%;
+}
+
 #project-section {
   margin: 0px 0px 20px 0px;
   text-align: center;
