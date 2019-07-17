@@ -1,9 +1,6 @@
 /*---Media Queries --*/
 
 @media (min-width: 993px) {
-  body {
-    background-size: cover;
-  }
   .intro-text {
     font-size: 60px;
   }
@@ -18,12 +15,19 @@
     text-align: center;
     display: none;
   }
+  body {
+    background-image: url("/img/3750wide_.jpg");
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
 }
 
 @media (max-width: 992px) {
-  body {
-    background-size: cover;
-  }
   .intro-text {
     font-size: 60px;
   }
@@ -40,42 +44,67 @@
   .title-in-project-description {
     display: none;
   }
+  body {
+    background-image: url("/img/3750wide_.jpg");
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
 }
 
 @media (max-width: 768px) {
   .intro-text {
     font-size: 60px;
   }
+  body {
+    background-image: url("/img/3750wide_.jpg");
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
 }
 
 @media (max-width: 576px) {
-  body {
-    background-size: auto 120vh;
-  }
   .intro-text {
     font-size: 60px;
   }
+  body {
+    background-image: url("/img/3750wide_.jpg");
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
 }
 
-@media (max-width: 400px) {
+@media only screen and (max-width: 400px) {
   .intro-text {
     font-size: 46px;
+  }
+  body {
+    background-image: none;
+    background-color: #454545;
   }
 }
 
 /*--- Page Styles --*/
+
 html {
   scroll-behavior: smooth;
 }
 
-body {
-  background-image: url("/img/3750wide_.jpg");
-  background-color: lightgray;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
-}
+
 
 .intro-container {
   height: 110vh;
@@ -85,7 +114,7 @@ body {
 
 .intro-hero {
   background: rgb(255, 255, 255);
-  padding: 25px; 
+  padding: 25px;
 }
 
 .logo-text-container {
@@ -97,7 +126,7 @@ body {
   margin-bottom: 10pt
 }
 
-#intro-arrow{
+#intro-arrow {
   position: absolute;
   bottom: 1%;
   left: 49%-20px;
@@ -106,17 +135,30 @@ body {
   text-align: center;
   line-height: 10px;
 }
-#intro-arrow a:link { color: #fff; }
-#intro-arrow a:visited { color: #fff; }
-#intro-arrow a:hover { color: #777; }
-#intro-arrow a:active { color: #fff; }
+
+#intro-arrow a:link {
+  color: #fff;
+}
+
+#intro-arrow a:visited {
+  color: #fff;
+}
+
+#intro-arrow a:hover {
+  color: #777;
+}
+
+#intro-arrow a:active {
+  color: #fff;
+}
 
 .circle-base {
   border-radius: 50%;
   behavior: url(PIE.htc);
   width: 55px;
   height: 55px;
-  border: 2px solid white; /* remove if you don't care about IE8 */
+  border: 2px solid white;
+  /* remove if you don't care about IE8 */
 }
 
 #project-section {
@@ -180,14 +222,16 @@ body {
   text-align: left;
   max-width: 850px;
 }
-#contact-section{
+
+#contact-section {
   margin: 20px 0px 10px 0px;
   text-align: center;
   background-color: white;
 }
-.contact-form{
-  width:50%;
-  max-width:600px;
+
+.contact-form {
+  width: 50%;
+  max-width: 600px;
   margin: 0 auto;
 }
 
