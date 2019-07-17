@@ -95,9 +95,16 @@ body {
 
 #intro-arrow{
   position: absolute;
-  bottom: 3%;
+  bottom: 0%;
   left: 49%;
+  color: white;
+  font-size: 60px;
 }
+#intro-arrow a:link { color: #fff; }
+#intro-arrow a:visited { color: #fff; }
+#intro-arrow a:hover { color: #777; }
+#intro-arrow a:active { color: #fff; }
+
 
 #project-section {
   margin: 0px 0px 20px 0px;
