@@ -22,7 +22,7 @@
 
 @media (max-width: 992px) {
   body {
-    background-size: auto 120vh;
+    background-size: cover;
   }
   .intro-text {
     font-size: 60px;
@@ -74,6 +74,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
+  background-size: cover;
 }
 
 .intro-container {
@@ -99,7 +100,7 @@ body {
 #intro-arrow{
   position: absolute;
   bottom: 1%;
-  left: 49%;
+  left: 49%-20px;
   color: white;
   font-size: 55px;
   text-align: center;
