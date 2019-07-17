@@ -95,16 +95,25 @@ body {
 
 #intro-arrow{
   position: absolute;
-  bottom: 0%;
+  bottom: 1%;
   left: 49%;
   color: white;
-  font-size: 60px;
+  font-size: 55px;
+  text-align: center;
+  line-height: 10px;
 }
 #intro-arrow a:link { color: #fff; }
 #intro-arrow a:visited { color: #fff; }
 #intro-arrow a:hover { color: #777; }
 #intro-arrow a:active { color: #fff; }
 
+.circle-base {
+  border-radius: 50%;
+  behavior: url(PIE.htc);
+  width: 55px;
+  height: 55px;
+  border: 2px solid white; /* remove if you don't care about IE8 */
+}
 
 #project-section {
   margin: 0px 0px 20px 0px;
