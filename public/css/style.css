@@ -104,7 +104,10 @@ html {
   scroll-behavior: smooth;
 }
 
-
+hr {
+  display: block;
+  margin: 0 auto;
+}
 
 .intro-container {
   height: 110vh;
