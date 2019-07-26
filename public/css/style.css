@@ -96,6 +96,9 @@
     background-image: none;
     background-color: #454545;
   }
+  #brand-image {
+    display: none;
+  }
 }
 
 /*--- Page Styles --*/
@@ -107,6 +110,10 @@ html {
 hr {
   display: block;
   margin: 0 auto;
+}
+
+#brand-image {
+  height: 80px; width: 80px;
 }
 
 .intro-container {
